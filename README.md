@@ -20,8 +20,7 @@ Note: There is a configuration for a local IPFS node that uses a `swarm key` in 
 ### Bonus Points (we suggest trying at least one)
 
 1. Figure out how to allow the notes to survive between server restarts
-   We can store the data in temporarily in Caching service(Redis/elastic cache etc) when server receive request before further processing like ipfs etc
-   once server back online after restart, we will check pending entries from caching service and store in IPFS either via queueing system or we can process all in once based on server load.
+   Before processing data in IPFS, we can temporarily store it in a caching service such as Redis or Elastic Cache, In the event that the server needs to restart, we can retrieve any pending entries from the caching service and then store them in IPFS. Depending on the server's workload, we may choose to process all entries at once or queue them for processing.
 
 2. Allow users to sign notes using encryption
    i have working metamask login, in which we sign the message via metamask and at backend we verify that signature
