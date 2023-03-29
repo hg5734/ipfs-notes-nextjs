@@ -86,15 +86,9 @@ My Github project for reference : https://github.com/hg5734/metamask-login
 1. `npm run dev` (starts Next.js frontend/backend)
 2. `docker compose up` (starts local IPFS on port 5001)
 
-## Blank Slate: Testing the pipes
+## Application Stage
 
-You should be greeted with the following page on http://localhost:3000 (or another port if 3000 is taken)
-
-![First Load](https://bafkreidka3mfik5zjdvequupqhhj3kszvtiatff3h5ylbwsb4cgqaudtsm.ipfs.dweb.link)
-
-Then if you click "Retrieve Data" a simple API is called and information is delivered to the frontend.
-
-![After Retrieve](https://dweb.link/ipfs/bafkreictjcnzhje6fqh72jm7ttwx7q2qlqbjp4ru36uzrddzv4ol22yuya)
+![My Image](app.png)
 
 ## Notes
 
